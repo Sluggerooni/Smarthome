@@ -1,0 +1,353 @@
+/* All things in headers align */
+header{
+  text-align:center;
+}
+
+/* Safety aside padding in flex-con*/
+#saf1{
+  padding-bottom: 20px;
+}
+
+#saf2{
+  padding-bottom: 20px;
+}
+
+#saf3{
+  padding-bottom: 20px;
+}
+
+#saf4{
+  padding-bottom: 20px;
+}
+
+#saf5{
+  padding-bottom: 20px;
+}
+
+#saf6{
+  padding-bottom: 20px;
+}
+
+#saf7{
+  padding-bottom: 20px;
+}
+
+/* Fonts for h1s */
+h1{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 60px;
+  line-height: 0px;
+  text-align: center;
+}
+
+/* Heading text margin alignment*/
+#yap {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+/* H2 alignment*/
+h2{
+  text-align:center;
+}
+
+/* Header image alignment*/
+header > img{
+  text-align: center;
+}
+
+/* Fonts on em */
+em{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+}
+
+/* Nav styling */
+nav{
+    background-color:rgb(50, 50, 50);
+    padding-top:10px;
+    padding-bottom: 5px;
+    color: #c7d8fd;
+    text-align: center;
+}
+
+/* Explanatory */
+body{
+    color:white;
+    background-color:#2e3f64;
+}
+
+/* Nav styling */
+nav > a {
+    background-color: rgb(225, 235, 255);
+    display:inline-block;
+    padding: 3mm;
+    border-radius: 0.15em;
+    color:black;
+    text-decoration: none;
+    transition-duration: 150ms ;
+    transition-property: color;
+    transition-delay: 0ms ;
+    transition-timing-function: ease ;
+}
+
+/* Header hover functions */
+nav > a:hover  {
+    background-color: aliceblue;
+    color: #2e3f64;
+}
+
+nav > footer > a:hover  {
+  background-color: aliceblue;
+  color: #2e3f64;
+}
+
+/* Footer bar padding */
+footer > aside > nav  {
+ padding: 20px;
+ padding-right: 25px;
+}
+
+/* Explanatory*/
+img {
+    border: 4px solid rgb(0, 0, 0);
+}
+
+/* Text aligns on screen */
+p{
+text-align: center;
+}
+
+/* Nav bar padding*/
+aside > nav {
+  padding-left:15px;
+  padding-top:20px;
+  padding-bottom: 60px;
+  width: 97.7%;
+}
+
+/* Asides inside divs get correct padding*/
+div > aside{
+  padding-left:15px;
+  padding-top:20px;
+  width: 96.5%;
+  height: 23%;
+  background-color: #2e3f64;
+  text-align:left;
+}
+
+/* Aligns any text to left inside divs*/
+div > p {
+    text-align: left;
+}
+
+/* Fixes and centers header nav bar*/
+div > header > nav {
+  text-align:center;
+  position:fixed; top:0; width: 100%;
+}
+
+/* Hide scroll-bars on safety */
+ #scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll; 
+}
+
+#scroll ::-webkit-scrollbar {
+  display: none;
+}
+
+/* Flex boxes for index*/
+[class^="box"] {
+  color:white;
+  font-size: 5px;
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+}
+
+.box1 { background:rgb(50, 50, 50);}
+.box2 { background:rgb(50, 50, 50);}
+.box3 { background:rgb(50, 50, 50);}
+.box4 { background:rgb(50, 50, 50);}
+.box5 { background:rgb(50, 50, 50);}
+.box6 { background:rgb(50, 50, 50);}
+.box7 { background:rgb(50, 50, 50);}
+.box8 { background:rgb(50, 50, 50);}
+
+.flex-container {
+
+  border:10px solid #2e3f64;
+  width:70vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto ;
+}
+
+.box1 {
+  margin-top: 3px;
+  height: 540px;
+  order:0;  
+  width: 48.4%;
+  font-size: 18px;
+}
+
+.box2 {
+  margin-top: 3px;
+  height: 540px;
+  order:0;
+  width:48.4%;
+  font-size: 18px
+}
+
+.box3 {
+  margin-top:4px;
+  order:1;
+  width:33%;
+  font-size: 18px;
+  height: 550px;
+}
+
+.box4 {
+  margin-top:4px;
+  order:1;
+  width:29%;
+  font-size: 18px;
+  height: 550px;
+
+}
+
+.box5 {
+  margin-top:4px;
+  order:1;
+  width:33%;
+  font-size: 18px;
+  height: 550px;
+
+
+}
+
+.box6 {
+  margin-top:4px;
+  order:2;
+  width:33%;
+  font-size: 18px;
+  height: 550px;
+
+}
+
+.box7 {
+  margin-top:4px;
+  order:2;
+  width:29%;
+  height: 550px;
+  font-size:18px;
+}
+
+
+.box8 {
+  margin-top:4px;
+  order:2;
+  width:33%;
+  font-size: 18px;
+  height: 550px;
+}
+
+
+/* Flex boxes for safety*/
+#boxle {padding-bottom: 200px;}
+
+.boxa { background:rgb(50, 50, 50);}
+.boxb { background:rgb(50, 50, 50);}
+.boxc { background:rgb(50, 50, 50);}
+.boxd { background:rgb(50, 50, 50);}
+.boxe { background:rgb(50, 50, 50);}
+.boxf { background:rgb(50, 50, 50);}
+.boxg { background:rgb(50, 50, 50);}
+
+
+.flex-con {
+
+  border:10px solid #2e3f64;
+  width:70vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto ;
+}
+
+[class^="flex-con"] {
+ padding-bottom: 200px ;
+}
+
+main > section > aside {
+  padding-bottom: 200px;
+}
+
+
+.boxa {
+  margin-top: 3px;
+  height: 45%;
+  order:0;  
+  width: 50%;
+  font-size: 20px;
+  
+
+}
+.boxb {
+  margin-top: 3px;
+  height: 45%;
+  order:1;  
+  width: 50%;
+  font-size: 20px;
+  
+}
+
+.boxc {
+  margin-top: 3px;
+  height: 45%;
+  order:1;  
+  width: 50%;
+  font-size: 20px;
+}
+
+.boxd {
+  margin-top: 3px;
+  height: 45%;
+  order:3;  
+  width: 50%;
+  font-size: 20px;
+
+}
+
+.boxe { 
+  margin-top: 3px;
+  height: 45%;
+  order:4;  
+  width: 50%;
+  font-size: 20px;
+
+
+}
+
+.boxf { 
+  margin-top: 3px;
+  height: 45%;
+  order:5;  
+  width: 50%;
+  font-size: 20px;
+
+}
+
+.boxg {
+  margin-top: 3px;
+  height: 45%;
+  order:6;  
+  width: 50%;
+  font-size: 20px;
+}
